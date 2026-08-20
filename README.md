@@ -3,7 +3,7 @@
 ## About This Repository
 
 This is my personal, structured library of Olympiad and competitive programming problems with clean, well-documented solutions in C++.
-It's my own collection of problems that I solve and revisit while working through Physics, Mathematics, and Computer Science topics — mainly problems from contests like ICPC, IOI, IPhO, IMO, and anything else I find interesting in these fields, all solved using C++ only.
+It's my own collection of problems that I solve and revisit while working through Physics, Mathematics, and Computer Science topics — mainly problems from contests like ICPC & IPhO, and anything else I find interesting in these fields, all solved using C++ only.
 
 ---
 
@@ -62,4 +62,4 @@ g++ -std=c++17 -O2 -Wall -o solution solution.cpp
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Original problem statements remain the property of their respective sources (IOI, IPhO, IMO, Codeforces, etc.) and are referenced/credited, not claimed as original content.
+This project is licensed under the [MIT License](LICENSE). Original problem statements remain the property of their respective sources ( ICPC & IPHO) and are referenced/credited, not claimed as original content.
