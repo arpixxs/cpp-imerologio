@@ -3,7 +3,7 @@
 ## About This Repository
 
 This is my personal, structured library of Olympiad and competitive programming problems with clean, well-documented solutions in C++.
-It's my own collection of problems that I solve and revisit while working through Physics, Mathematics, and Computer Science topics — mainly problems from contests like ICPC & IPhO, and anything else I find interesting in these fields, all solved using C++ only.
+It's my own collection of problems that I solve and revisit while working through Physics and Computer Science topics — mainly problems from contests like ICPC & IPhO, and anything else I find interesting in these fields, all solved using C++ only.
 
 ---
 
@@ -12,7 +12,6 @@ It's my own collection of problems that I solve and revisit while working throug
 ```
 Olympiad-vault-cpp/
 ├── physics/
-├── maths/
 ├── competitive-programming/
 └── README.md
 ```
