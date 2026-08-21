@@ -13,13 +13,14 @@ It's my own collection of problems that I solve and revisit while working throug
 Olympiad-vault-cpp/
 ├── physics/
 ├── competitive-programming/
+│   └── icpc/
 └── README.md
 ```
 
 ---
 
 Each entry includes:
-- **Original problem statement** (with source: IOI, IPhO, IMO, Codeforces, etc.)
+- **Original problem statement** (with source: IOI, IPhO, Codeforces, etc.)
 - **C++ solution** (readable, commented, competition-style)
 - **Explanation** of the approach and reasoning
 - **Time & space complexity** analysis (for CS/algorithmic problems)
