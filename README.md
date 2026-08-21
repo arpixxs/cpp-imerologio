@@ -51,11 +51,6 @@ g++ -std=c++17 -O2 -Wall -o solution solution.cpp
 
 ---
 
-## Table of Contents
-
-| # | Subject | Topic | Problem | Source | Solution |
-|---|---------|-------|---------|--------|----------|
-|   |         |       |         |        |          |
 
 ---
 
