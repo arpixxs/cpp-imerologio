@@ -69,7 +69,7 @@ g++ -std=c++17 -O2 -Wall -o solution competitive-programming/icpc/001-two-sum.cp
 | `-std=c++17` | Use the C++17 language standard |
 | `-O2` | Optimization level 2 — makes the compiled program run faster |
 | `-Wall` | Show all warnings (helps catch bugs early) |
-| `-o solution` | Name the output executable `solution` (default is `a.out` otherwise) |
+| `-o solution` | Name the output executable `solution` |
 | `solution.cpp` | The source file being compiled |
 
 ---
