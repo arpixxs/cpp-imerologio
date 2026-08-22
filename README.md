@@ -1,4 +1,4 @@
-# Olympiad-vault-cpp
+# Olympiad-Vault
 
 ## About This Repository
 
@@ -10,17 +10,19 @@ It's my own collection of problems that I solve and revisit while working throug
 ## Repository Structure
 
 ```
-Olympiad-vault-cpp/
-├── physics/
-├── competitive-programming/
-│   └── icpc/
-└── README.md
+Olympiad-Vault/
+|-- physics/
+|   `-- Classical-Mechanics-Problems/
+|       `-- IPHO2025.py
+|-- competitive-programming/
+|   `-- icpc/
+`-- README.md
 ```
 
 ---
 
 Each entry includes:
-- **Original problem statement** (with source: IOI, IPhO, Codeforces, etc.)
+- **Original problem statement** (with source: ICPC, IPhO etc.)
 - **C++ solution** (readable, commented, competition-style)
 - **Explanation** of the approach and reasoning
 - **Time & space complexity** analysis (for CS/algorithmic problems)
