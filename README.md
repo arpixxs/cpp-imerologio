@@ -2,7 +2,7 @@
 
 ## About This Repository
 
-This is a structured library of algorithmic and competitive programming problems, solved and documented in C++ — primarily centered around ICPC set problems. It brings together problems that span the core areas of algorithmic problem solving: data structures, graph theory, dynamic programming, greedy strategies, searching and sorting techniques, number theory, and string algorithms — the same broad categories that make up the backbone of most ICPC regional and world finals problem sets.
+This is a structured library of algorithmic and competitive programming problems, solved and documented in C++ primarily centered around ICPC set problems. It brings together problems that span the core areas of algorithmic problem solving: data structures, graph theory, dynamic programming, greedy strategies, searching and sorting techniques, number theory, and string algorithms.
 
 
 ---
