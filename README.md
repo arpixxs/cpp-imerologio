@@ -31,7 +31,6 @@ Olympiad-Vault/
 - **Solution** (readable, commented — Python for physics, C++ for competitive programming)
 - **Explanation** of the approach and reasoning
 - **Time & space complexity** analysis (for CS/algorithmic problems)
-- **Sample test cases** with expected outputs
 
 ---
 
