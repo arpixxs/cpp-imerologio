@@ -2,7 +2,7 @@
 
 ## About This Repository
 
-This is a structured library of algorithmic and competitive programming problems, solved and documented in C++ — primarily centered around ICPC set problems. It brings together problems that span the core areas of algorithmic problem solving: data structures, graph theory, dynamic programming, greedy strategies, searching and sorting techniques, number theory, and string algorithms — the same broad categories that make up the backbone of most ICPC regional and world finals problem sets.
+This is a structured library of algorithmic and competitive programming problems, solved and documented in C++ primarily centered around ICPC set problems. It brings together problems that span the core areas of algorithmic problem solving: data structures, graph theory, dynamic programming, greedy strategies, searching and sorting techniques, number theory, and string algorithms.
 
 
 ---
@@ -11,9 +11,12 @@ This is a structured library of algorithmic and competitive programming problems
 
 ```
 ICPC-vault-cpp/
-├── competitive-programming/ 
-│       └── icpc-2025/
-│           └── 001-problem1.cpp
+├── competitive-programming/
+│   └── icpc-2025/
+│       ├── 001-a-skewed-reasoning/
+│       │   ├── problem.md        # summarized statement + source credit + samples
+│       │   ├── solution.cpp      # actual code
+│       │   └── notes.md          # reasoning, false starts, complexity analysis
 └── README.md
 ```
 
