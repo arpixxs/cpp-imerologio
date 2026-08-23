@@ -11,7 +11,6 @@ This is a structured library of algorithmic and competitive programming problems
 
 ```
 ICPC-vault-cpp/
-├── competitive-programming/
 │   └── icpc-2025/
 │       ├── 001-a-skewed-reasoning/
 │       │   ├── problem.md        # summarized statement + source credit + samples
