@@ -2,7 +2,7 @@
 
 ## About This Repository
 
-This is a structured library of algorithmic and competitive programming problems, solved and documented in C++ primarily centered around ICPC set problems.
+This is a structured library of algorithmic and competitive programming problems, solved and documented in C++ primarily centered around ICPC set problems
 
 
 ---
