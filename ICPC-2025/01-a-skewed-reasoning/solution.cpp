@@ -177,15 +177,15 @@ int main() {
     for (int i = 1; i <= n; ++i)
         cin >> L[i] >> R[i];
 
-    // A skew heap must satisfy the min-heap property: every child's value
-    // is strictly greater than its parent's. The problem only guarantees
-    // that the input is *some* valid binary tree shape, not that it's
-    // heap-ordered — so a child with a smaller (or equal) label than its
-    // parent is a legitimate "impossible" case, not something we can
-    // assume away. Without this check, the size computation below reads
-    // sz[] entries that haven't been filled in yet (since it walks n..1
-    // assuming children always have larger indices), producing garbage
-    // or crashing.
+    /* A skew heap must satisfy the min-heap property: every child's value
+     is strictly greater than its parent's. The problem only guarantees
+     that the input is *some* valid binary tree shape, not that it's
+     heap-ordered — so a child with a smaller (or equal) label than its
+     parent is a legitimate "impossible" case, not something we can
+     assume away. Without this check, the size computation below reads
+    sz[] entries that haven't been filled in yet (since it walks n..1
+     assuming children always have larger indices), producing garbage
+    */ or crashing.
     for (int u = 1; u <= n; ++u) {
         if ((L[u] && L[u] <= u) || (R[u] && R[u] <= u)) {
             cout << "impossible\n";
