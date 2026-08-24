@@ -1,8 +1,6 @@
 # ICPC-vault-cpp
 
-A personal collection of **ICPC competitive-programming problems solved in C++**, with the emphasis on understanding the reasoning rather than only collecting accepted code.
-
-Each problem is kept self-contained: the problem summary, implementation, and my own reasoning are stored together.
+A personal collection of **ICPC competitive-programming problems solved in C++**, with the emphasis on understanding the reasoning
 
 ## Repository Structure
 
