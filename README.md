@@ -38,7 +38,7 @@ ICPC-vault-cpp/
 
 ### Compiling a Solution
 ```bash
-g++ -std=c++17 -O2 -Wall -o solution competitive-programming/icpc/icpc-2025/001-problem1.cpp
+g++ -std=c++17 -O2 -Wall -o solution icpc-2025/01-a-skewed-reasoning.cpp
 ./solution < tests/input1.txt
 ```
 
