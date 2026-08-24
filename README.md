@@ -1,58 +1,91 @@
 # ICPC-vault-cpp
 
-## About This Repository
+A personal collection of **ICPC competitive-programming problems solved in C++**, with the emphasis on understanding the reasoning rather than only collecting accepted code.
 
-This is a structured library of algorithmic and competitive programming problems, solved and documented in C++ primarily centered around ICPC set problems
-
-
----
+Each problem is kept self-contained: the problem summary, implementation, and my own reasoning are stored together.
 
 ## Repository Structure
 
-```
+```text
 ICPC-vault-cpp/
-├──icpc-2025/
-│       ├── 001-a-skewed-reasoning/
-│       │   ├── problem.md        # summarized statement + source credit + samples
-│       │   ├── solution.cpp      # actual code
-│       │   └── notes.md          # reasoning, false starts, complexity analysis
+├── ICPC-2025/
+│   └── 01-a-skewed-reasoning/
+│       ├── problem.md
+│       ├── solution.cpp
+│       └── notes.md
 └── README.md
 ```
 
----
+### Problem directory
 
-## What Each Entry Includes
+Each problem directory contains:
 
-- **Original problem statement** (summarized, with source credited: ICPC, Codeforces, etc.)
-- **C++ solution** (readable, commented, competition-style)
-- **Explanation** of the approach and reasoning
-- **Time & space complexity** analysis
+| File | Purpose |
+|---|---|
+| `problem.md` | Paraphrased problem statement, source/contest information, samples, approach, and complexity |
+| `solution.cpp` | C++17 implementation |
+| `notes.md` | Personal reasoning, observations, false starts, and implementation insights |
 
----
+The repository may grow with more contest years and problems that I will add
+
 
 ## Getting Started
 
 ### Prerequisites
-- A C++17 (or later) compiler — `g++` or `clang++`
-- Mathematics and Competitive Programming fundamentals (undergrad level)
 
-### Compiling a Solution
-```bash
-g++ -std=c++17 -O2 -Wall -o solution icpc-2025/01-a-skewed-reasoning.cpp
-./solution < tests/input1.txt
+You need:
+
+- a C++17-or-newer compiler;
+- `g++` (recommended) or `clang++`;
+- a terminal such as PowerShell, Command Prompt, or a Unix shell.
+
+No external libraries are required by the current problems
+
+## Compile and Run
+
+
+
+```powershell
+g++ -std=c++17 -O2 -Wall -Wextra -pedantic -o ICPC-2025/01-a-skewed-reasoning/solution.exe ICPC-2025/01-a-skewed-reasoning/solution.cpp
 ```
 
-| Flag | Meaning |
-|------|---------|
-| `g++` | The compiler being used (GNU C++ compiler) |
-| `-std=c++17` | Use the C++17 language standard |
-| `-O2` | Optimization level 2 — makes the compiled program run faster |
-| `-Wall` | Show all warnings (helps catch bugs early) |
-| `-o solution` | Name the output executable `solution` (default is `a.out` otherwise) |
-| `solution.cpp` | The source file being compiled |
 
----
+```powershell
+.\ICPC-2025-a-skewed-reasoning\solution.exe
+```
+
+```powershell
+.\ICPC-2025-a-skewed-reasoning\solution.exe < input.txt
+```
+
+
+
+## Compiler Flags
+
+| Flag | Purpose |
+|---|---|
+| `-std=c++17` | Compile using the C++17 standard |
+| `-O2` | Enable compiler optimizations |
+| `-Wall` | Enable common compiler warnings |
+| `-pedantic` | Warn about non-standard C++ constructs |
+| `-o ...` | Choose the name and location of the executable |
+
+
+For each problem, sample inputs and outputs are documented in `problem.md`.
+The `notes.md` files are intentionally more personal and exploratory
+
+## Attribution
+
+Problem statements and contest material belong to their respective organizers and authors.
+
+The repository contains paraphrased summaries for study and documentation, with the original source credited in each problem's `problem.md`.
+
+Original problem statements are not claimed as original work.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Original problem statements remain the property of their respective sources (ICPC, Codeforces, etc.) and are referenced/credited, not claimed as original content.
+This project is licensed under the [MIT License](LICENSE).
+
+You are free to use, modify, and distribute the code under the terms of the license.
+
+Problem statements and contest materials remain the property of their respective organizers and authors. They are paraphrased and credited for educational and documentation purposes and are not claimed as original work.
