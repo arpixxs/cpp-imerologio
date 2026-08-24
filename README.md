@@ -39,23 +39,14 @@ You need:
 
 No external libraries are required by the current problems
 
+
 ## Compile and Run
 
-
+From the repository root:
 
 ```powershell
 g++ -std=c++17 -O2 -Wall -Wextra -pedantic -o ICPC-2025/01-a-skewed-reasoning/solution.exe ICPC-2025/01-a-skewed-reasoning/solution.cpp
-```
-
-
-```powershell
-.\ICPC-2025-a-skewed-reasoning\solution.exe
-```
-
-```powershell
-.\ICPC-2025-a-skewed-reasoning\solution.exe < input.txt
-```
-
+.\ICPC-2025\01-a-skewed-reasoning\solution.exe
 
 
 ## Compiler Flags
