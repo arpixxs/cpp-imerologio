@@ -74,8 +74,4 @@ Original problem statements are not claimed as original work.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-
-You are free to use, modify, and distribute the code under the terms of the license.
-
-Problem statements and contest materials remain the property of their respective organizers and authors. They are paraphrased and credited for educational and documentation purposes and are not claimed as original work.
+This project is licensed under the [MIT License](LICENSE)
