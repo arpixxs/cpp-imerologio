@@ -12,12 +12,11 @@ This is a structured library of algorithmic and competitive programming problems
 ```
 ICPC-vault-cpp/
 ├── competitive-programming/
-│   └── icpc-2025/
-│       ├── 001-a-skewed-reasoning/
-│       │   ├── problem.md        # summarized statement + source credit + samples
-│       │   ├── solution.cpp      # actual code
-│       │   └── notes.md          # reasoning, false starts, complexity analysis
-└── README.md
+     └── icpc-2025/
+         ├── 001-a-skewed-reasoning/
+         ├── problem.md        # summarized statement + source credit + samples
+         ├── solution.cpp      # actual code
+         └── notes.md          # reasoning, false starts, complexity analysis
 ```
 
 ---
