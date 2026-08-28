@@ -1,6 +1,6 @@
 # Problem A: A-Skew-ed Reasoning
 
-**Source:** ICPC World Finals 2025 (Baku) — Problem A
+**Source:** ICPC World Finals 2025 — Problem A
 **Contest:** 49th ICPC World Championship
 **Original problem statement:** © ICPC Foundation (see official ICPC archive for the authoritative PDF)
 **Time limit:** 2 seconds
