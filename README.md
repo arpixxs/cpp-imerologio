@@ -39,7 +39,7 @@ Each folder will generally have a mix of:
 
 ---
 
-## 🛠️ How I use this repo
+## using this repo
 
 - Compile and test snippets locally:
 ```bash
@@ -52,6 +52,6 @@ g++ file.cpp -o file && ./file
 
 ##  Status
 
-🚧 Actively learning and updating. This is a live notebook, not a finished product — expect gaps, half-written notes, and things that get reorganized as I understand them better.
+ Actively learning and updating. This is a live notebook, not a finished product — expect gaps, half-written notes, and things that get reorganized as I understand them better.
 
 ---
