@@ -1,4 +1,4 @@
-# ICPC-vault
+# icpc-vault
 
 A personal collection of **ICPC competitive-programming problems solved in C++**, with the emphasis on understanding the reasoning
 
