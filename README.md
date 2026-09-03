@@ -1,8 +1,6 @@
 # cpp-imerlogio
 
-My personal C++ notes and practice — syntax, concepts, snippets, and things I don't want to forget while learning C++ for **Physics** (computational/numerical work) and **Competitive Programming**.
-
-This isn't a tutorial or a polished resource for anyone else — it's just my own running notebook that I'll keep adding to, messy parts included, and come back to whenever I need a refresher.
+ C++ notes — syntax, concepts, snippets, and things I don't want to forget.
 
 ---
 
