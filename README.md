@@ -4,13 +4,6 @@
 
 ---
 
-## learning C++
-
-- **Computational Physics** — numerical methods, simulations, and solving physical problems computationally
-- **Competitive Programming** — Code-forces and similar platforms, building algorithmic thinking and fast, correct code
-- Long-term, this also lays the groundwork for moving into **AI/ML** work later
-
----
 
 ##  Structure
 
