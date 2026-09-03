@@ -1,6 +1,6 @@
 # cpp-imerlogio
 
- C++ notes — syntax, concepts, snippets, and things I don't want to forget.
+ This repository documents my journey learning C++ — with a focus on DSA, physics, AI/ML, and advanced computing concepts. It contains detailed notes (in README.md files across folders) and problems I solve along the way. While built for my own learning, it's structured to be a useful resource for anyone learning C++, whether you're a beginner or looking to apply it in scientific/ML contexts.
 
 ---
 
