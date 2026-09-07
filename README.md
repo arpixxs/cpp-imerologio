@@ -1,18 +1,9 @@
 # cpp-imerlogio
 
-My personal C++ notes and practice — syntax, concepts, snippets, and things I don't want to forget while learning C++ for **Physics** (computational/numerical work) and **Competitive Programming**.
-
-This isn't a tutorial or a polished resource for anyone else — it's just my own running notebook that I'll keep adding to, messy parts included, and come back to whenever I need a refresher.
+ This repository documents notes in depth to learn C++. It contains detailed notes (in README.md files across folders) and problems I solve along the way. While built for my own learning, it's structured to be a useful resource for anyone learning C++
 
 ---
 
-## learning C++
-
-- **Computational Physics** — numerical methods, simulations, and solving physical problems computationally
-- **Competitive Programming** — Code-forces and similar platforms, building algorithmic thinking and fast, correct code
-- Long-term, this also lays the groundwork for moving into **AI/ML** work later
-
----
 
 ##  Structure
 
