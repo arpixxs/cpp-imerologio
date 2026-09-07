@@ -1,48 +1,102 @@
-# cpp-imerlogio
+# C++ Projects 
 
- This repository documents notes in depth to learn C++. It contains detailed notes (in README.md files across folders) and problems I solve along the way. While built for my own learning, it's structured to be a useful resource for anyone learning C++
+A growing collection of C++ projects, organized by difficulty level — from starting Level 1 toward advanced.
 
----
+This repository is meant to document my journey of learning and mastering C++, one project at a time. Each project focuses on a specific concept, data structure, algorithm, or ICPC problem set.
 
 
-##  Structure
+##  How Projects Are Organized
 
-I'll build this structure organically as I learn, rather than locking it in upfront. Roughly, folders will form around topics as I go — things like basics, STL, OOP, data structures, algorithms, competitive programming practice, and numerical methods for physics. I'll reorganize as needed once patterns become clear.
+Projects are grouped into levels based on difficulty and the concepts they cover — starting from `Level-1` and moving up as complexity increases. New levels and projects are added continuously, so this repository is a work in progress.
 
-Each folder will generally have a mix of:
-- `.cpp` files — small runnable examples/snippets
-- `.md` notes — explanations in my own words, so future-me actually understands it
+##  Repository Structure
 
----
-
-##  What's inside (growing over time)
-
-| Section | Covers |
-|---|---|
-| **Basics** | Variables, loops, functions, I/O, pointers, references |
-| **STL** | Containers, iterators, algorithms library |
-| **OOP** | Classes, constructors, inheritance, operator overloading |
-| **Data Structures** | Implementing and using core DS from scratch and via STL |
-| **Algorithms** | Sorting, searching, recursion, DP, graph traversal |
-| **Competitive Programming** | Fast I/O, templates, common CP patterns, solved problems |
-| **Numerical Methods** | Physics-flavored: numerical integration, simulations, matrix ops |
-| **Gotchas** | Bugs I hit, weird behavior, things I want to remember not to repeat |
-
----
-
-## using this repo
-
-- Compile and test snippets locally:
-```bash
-g++ file.cpp -o file && ./file
 ```
-- Add notes in plain Markdown alongside code — future me should be able to read a note and immediately remember *why* it mattered.
-- No pressure for perfect organization — this evolves as I learn.
+├── Level-1-projects/
+│   └── Tensor-calculator.cpp
+├── Level-2-projects/
+├── Level-3-projects/
+├── ...
+└── Level-Advanced-projects/
+     ICPC-vault-cpp/
+           ICPC-2025/
+               └── 01-a-skewed-reasoning/
+               ├── problem.md
+               ├── solution.cpp
+               └── notes.md
+                   └── README.md
+```
 
----
+Each `Level-X-projects` folder contains standalone `.cpp` files (or sub-folders for larger projects) for that difficulty tier. Alongside the leveled projects, the repository will also include:
 
-##  Status
+- **DSA Problems** — solutions to data structures and algorithms problems (arrays, linked lists, trees, graphs, dynamic programming, etc.), used for interview prep and concept reinforcement and icpc contest problems 
+- **Computational Physics Mini-Projects** — small simulations and numerical solutions to physics problems (e.g., projectile motion, N-body simulations, numerical integration, wave/heat equation solvers), used to apply C++ to real-world scientific computing
 
- Actively learning and updating. This is a live notebook, not a finished product — expect gaps, half-written notes, and things that get reorganized as I understand them better.
+
+##  Featured Project
+
+### Tensor-calculator.cpp (Level 1)
+A beginner-level program that performs basic tensor/matrix-style calculations, introducing core C++ concepts such as arrays, loops, functions, and numerical computation.
+### ICPC 2025 problem (Level advance)
+
+## Requirements
+
+- A C++ compiler (GCC, Clang, or MSVC)
+- C++11 or later recommended
+- DSA concepts knowledge
+- - a terminal such as PowerShell, Command Prompt, or a Unix shell.
+
+
+## Running a Project
+
+1. Navigate to the project's folder.
+2. Compile the `.cpp` file using your preferred compiler:
+   ```bash
+   g++ Tensor-calculator.cpp -o tensor_calculator
+   ```
+3. Run the executable:
+   ```bash
+   ./tensor_calculator
+   ```
+ ## Compile and Run the ICPC problem
+
+From the repository root:
+
+```powershell
+g++ -std=c++17 -O2 -Wall -Wextra -pedantic -o ICPC-2025/01-a-skewed-reasoning/solution.exe ICPC-2025/01-a-skewed-reasoning/solution.cpp
+.\ICPC-2025\01-a-skewed-reasoning\solution.exe
+```
+## Compiler Flags
+
+| Flag | Purpose |
+|---|---|
+| `-std=c++17` | Compile using the C++17 standard |
+| `-O2` | Enable compiler optimizations |
+| `-Wall` | Enable common compiler warnings |
+| `-pedantic` | Warn about non-standard C++ constructs |
+| `-o ...` | Choose the name and location of the executable |
+
+
+## Progress
+
+This repository will keep expanding with new projects as I advance through more complex topics — including data structures, algorithms, object-oriented design, multi-threading, and more.
+
+## Contributing
+
+This is primarily a personal learning repository
+
+## Attribution
+
+Problem statements and contest material belong to their respective organizers and authors.
+
+The repository contains paraphrased summaries for study and documentation, with the original source credited in each problem's `problem.md`.
+
+Original problem statements are not claimed as original work.
+
+
+## License
+
+This project is open source and available for learning purposes and licensed under the [MIT License](LICENSE)
+
 
 ---
