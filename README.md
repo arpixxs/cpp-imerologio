@@ -12,11 +12,6 @@ Projects are grouped into levels based on difficulty and the concepts they cover
 ##  Repository Structure
 
 ```
-├── Level-1-projects/
-│   └── Tensor-calculator.cpp
-├── Level-2-projects/
-├── Level-3-projects/
-├── ...
 └── Level-Advanced-projects/
      ICPC-vault-cpp/
            ICPC-2025/
@@ -25,6 +20,11 @@ Projects are grouped into levels based on difficulty and the concepts they cover
                ├── solution.cpp
                └── notes.md
                    └── README.md
+├── Level-1-projects/
+│   └── Tensor-calculator.cpp
+├── Level-2-projects/
+├── Level-3-projects/
+
 ```
 
 Each `Level-X-projects` folder contains standalone `.cpp` files (or sub-folders for larger projects) for that difficulty tier. Alongside the leveled projects, the repository will also include:
