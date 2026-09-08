@@ -20,10 +20,9 @@ Projects are grouped into levels based on difficulty and the concepts they cover
                ├── solution.cpp
                └── notes.md
                    └── README.md
-├── Level-1-projects/
-│   └── Tensor-calculator.cpp
-├── Level-2-projects/
-├── Level-3-projects/
+├── Level-1-projects/   #DSA problems with difficulty level 1 
+├── Level-2-projects/   #DSA problems with difficulty level 2
+├── Level-3-projects/   #DSA problems with difficulty level 3
 
 ```
 
@@ -33,12 +32,6 @@ Each `Level-X-projects` folder contains standalone `.cpp` files (or sub-folders 
 - **Computational Physics Mini-Projects** — small simulations and numerical solutions to physics problems (e.g., projectile motion, N-body simulations, numerical integration, wave/heat equation solvers), used to apply C++ to real-world scientific computing
 
 
-##  Featured Project
-
-### Tensor-calculator.cpp (Level 1)
-A beginner-level program that performs basic tensor/matrix-style calculations, introducing core C++ concepts such as arrays, loops, functions, and numerical computation.
-### ICPC 2025 problem (Level advance)
-
 ## Requirements
 
 - A C++ compiler (GCC, Clang, or MSVC)
@@ -47,17 +40,6 @@ A beginner-level program that performs basic tensor/matrix-style calculations, i
 - - a terminal such as PowerShell, Command Prompt, or a Unix shell.
 
 
-## Running a Project
-
-1. Navigate to the project's folder.
-2. Compile the `.cpp` file using your preferred compiler:
-   ```bash
-   g++ Tensor-calculator.cpp -o tensor_calculator
-   ```
-3. Run the executable:
-   ```bash
-   ./tensor_calculator
-   ```
  ## Compile and Run the ICPC problem
 
 From the repository root:
