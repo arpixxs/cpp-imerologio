@@ -65,7 +65,7 @@ This repository will keep expanding with new projects as I advance through more 
 
 ## Contributing
 
-This is primarily a personal learning repository
+This is primarily a personal learning repository created by me in way to master C++ and some cool projects 
 
 ## Attribution
 
