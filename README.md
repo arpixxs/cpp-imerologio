@@ -1,6 +1,6 @@
 # C++ Projects 
 
-A growing collection of C++ projects, organized by difficulty level — from starting Level 1 toward advanced.
+A growing collection of C++ problems, organized by difficulty level — from starting Level 1 toward advanced.
 
 This repository is meant to document my journey of learning and mastering C++, one project at a time. Each project focuses on a specific concept, data structure, algorithm, or ICPC problem set.
 
