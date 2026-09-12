@@ -16,15 +16,6 @@
     Row 3: 1 2 1                    Sum = 4   -> Not Prime
     Row 4: 1 3 3 1                  Sum = 8   -> Not Prime
     Row 5: 1 4 6 4 1                Sum = 16  -> Not Prime
-
-    Hints:
-    - Each element of Pascal's triangle can be computed using the
-      binomial coefficient formula: C(row, col) = row! / (col! * (row-col)!)
-      but it's more efficient to build it incrementally:
-      value = value * (row - col) / (col + 1)
-    - The sum of elements in row 'r' (0-indexed) of Pascal's Triangle
-      is always 2^r, so you can verify your sum calculation against this.
-    - For primality checking, only loop up to sqrt(sum) for efficiency.
 */
 
 #include <iostream>
