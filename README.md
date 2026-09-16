@@ -67,14 +67,6 @@ This repository will keep expanding with new projects as I advance through more 
 
 This is primarily a personal learning repository created by me in way to master C++ and some cool projects 
 
-## Attribution
-
-Problem statements and contest material belong to their respective organizers and authors.
-
-The repository contains paraphrased summaries for study and documentation, with the original source credited in each problem's `problem.md`.
-
-Original problem statements are not claimed as original work.
-
 
 ## License
 
