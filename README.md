@@ -61,10 +61,7 @@ g++ -std=c++17 -O2 -Wall -Wextra -pedantic -o ICPC-2025/01-a-skewed-reasoning/so
 
 ## Progress
 
-This repository will keep expanding with new projects as I advance through more complex topics — including data structures, algorithms, object-oriented design, multi-threading, and more.
-
-## Contributing
-
+This repository will keep expanding with new projects as I advance through more complex topics — including data structures, algorithms, object-oriented design, multi-threading, and more
 This is primarily a personal learning repository created by me in way to master C++ and some cool projects 
 
 
