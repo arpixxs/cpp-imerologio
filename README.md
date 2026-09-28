@@ -1,13 +1,7 @@
-# C++ Projects 
+# cpp-imerologio
 
-A growing collection of C++ problems, organized by difficulty level — from starting Level 1 toward advanced.
+This repository contains ICPC-2025 problem set with its solutions in my solving ways
 
-This repository is meant to document my journey of learning and mastering C++, one project at a time. Each project focuses on a specific concept, data structure, algorithm, or ICPC problem set.
-
-
-##  How Projects Are Organized
-
-Projects are grouped into levels based on difficulty and the concepts they cover — starting from `Level-1` and moving up as complexity increases. New levels and projects are added continuously, so this repository is a work in progress.
 
 ##  Repository Structure
 
@@ -20,17 +14,7 @@ Projects are grouped into levels based on difficulty and the concepts they cover
                ├── solution.cpp
                └── notes.md
                    └── README.md
-├── Level-1-projects/   #DSA problems with difficulty level 1 
-├── Level-2-projects/   #DSA problems with difficulty level 2
-├── Level-3-projects/   #DSA problems with difficulty level 3
-
 ```
-
-Each `Level-X-projects` folder contains standalone `.cpp` files (or sub-folders for larger projects) for that difficulty tier. Alongside the leveled projects, the repository will also include:
-
-- **DSA Problems** — solutions to data structures and algorithms problems (arrays, linked lists, trees, graphs, dynamic programming, etc.), used for interview prep and concept reinforcement and icpc contest problems 
-- **Computational Physics Mini-Projects** — small simulations and numerical solutions to physics problems (e.g., projectile motion, N-body simulations, numerical integration, wave/heat equation solvers), used to apply C++ to real-world scientific computing
-
 
 ## Requirements
 
@@ -61,8 +45,8 @@ g++ -std=c++17 -O2 -Wall -Wextra -pedantic -o ICPC-2025/01-a-skewed-reasoning/so
 
 ## Progress
 
-This repository will keep expanding with new projects as I advance through more complex topics — including data structures, algorithms, object-oriented design, multi-threading, and more
-This is primarily a personal learning repository created by me in way to master C++ and some cool projects 
+This repository will keep expanding with new problem set of icpc and some other cool questions as I advance through more complex topics — including data structures, algorithms, object-oriented design, multi-threading, and more
+This is primarily a personal learning repository created by me in way to master C++
 
 
 ## License
